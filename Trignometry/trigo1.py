@@ -24,3 +24,7 @@ def sec_val(r):
 	p = m.sec(r)
 	return p
 
+
+def cot_val(r):
+	p = m.cot(r)
+	return p
