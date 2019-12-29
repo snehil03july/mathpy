@@ -1,5 +1,5 @@
-#This function gives the approximate integral of a "function available in numpy" from x = a to x = b with N divisions.
-#Input the function as np.yourfunction in the function trap_integral
+#This function gives the approximate integral of a user defined function or any function from Numpy from x = a to x = b with N divisions.
+#Call the function in the following way: trap_integral(function,lower_limit,upper_limit,No.of_Intervals_of_integration)
 
 def trap_integral(f,a,b,N):
 
